@@ -28,7 +28,10 @@ jobs:
       - name: Compile check
         run: javac Sort.java
         
-      - name: Compile check done
+      - name: Testing
+        run: java Sort
+        
+      - name: Check done
         run: echo Done!
         
         
