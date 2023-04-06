@@ -167,8 +167,8 @@ public class Sort{
     }
     public static void main(String args[]) {
         Sort s = new Sort();
-        int[] arr = new int[] {10, 30, 50, 40,20};
-        int key = 20; //Element to be seatched
+        int[] arr = new int[] {10, 30, 50, 40,20,12,73,27};
+        int key = 27; //Element to be seatched
         //s.printarray(arr); //Array before sorting
         System.out.println();
         //s.divide(arr,0,arr.length-1); //Calling merge sort
